@@ -63,7 +63,7 @@ class MenuScreen {
   }
 
   loadSongChoices() {
-    fetch("https://github.com/amantangri001/practical-7/songs.json")
+    fetch("https://github.com/amantangri001/practical-7/blob/main/songs.json")
       .then(response => response.json())
       .then(this.onSongJsonReady);
   }
